@@ -30,24 +30,3 @@ const config = {
 }
 
 const graph = new Chart( indicatorsCanvasNode, config )
-
-// indicators.forEach( indicator => {
-//   const value = data[ indicator ].valor
-//   const msg = `${ indicator }: ${ value }`
-//   const p = document.createElement( 'p' )
-//   p.setAttribute( 'style', "color: red;" )
-//   p.textContent = msg
-//   indicatorsNode.appendChild( p )
-//   console.log( `${ indicator }: ${ value }` )
-// } )
-// console.log( data )
-
-// let text = ""
-// indicators.forEach( indicator => {
-//   const value = data[ indicator ].valor
-//   const msg = `${ indicator }: ${ value }`
-//   text += `<p style="color: red;">${ msg }</p>`
-//   console.log( `${ indicator }: ${ value }` )
-// } )
-// console.log( data )
-// indicatorsNode.innerHTML = text
